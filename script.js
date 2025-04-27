@@ -63,4 +63,4 @@ function saveTasks() {
     localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
-renderTasks(); // Initial rendering
+renderTasks(); 
