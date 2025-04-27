@@ -78,7 +78,7 @@ li {
     align-items: center;
     padding: 10px 0;
     border-bottom: 1px solid #eee;
-    justify-content: space-between; /* To space out text and buttons */
+    justify-content: space-between; 
 }
 
 li:last-child {
@@ -146,11 +146,11 @@ li button.delete-button:hover {
     }
 
     li {
-        flex-direction: column; /* Stack items on smaller screens */
+        flex-direction: column; 
         align-items: flex-start;
     }
 
     li button {
-        margin: 5px 0 0 0; /* Add margin for stacked buttons */
+        margin: 5px 0 0 0; 
     }
 }
